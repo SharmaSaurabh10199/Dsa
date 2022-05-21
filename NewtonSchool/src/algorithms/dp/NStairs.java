@@ -1,6 +1,7 @@
 package algorithms.dp;
 
 public class NStairs {
+    // memoization approach
     static int solve(int n, int[] dp){
         if(n==0){
             return 1;
@@ -17,11 +18,24 @@ public class NStairs {
         dp[n]=x+y+z;
         return x+y+z;
     }
+    // tabulation approach
+    static int solveBottonUp(int n, int[] dp){
+        dp[0]=1;
+        for (int i = 1; i <=n ; i++) {
+            if(i==1 || i==2){
+                dp[i]=i;
+            }
+            else {
+                dp[i]=dp[i-1]+dp[i-2]+dp[i-3];
+            }
+        }
+        return dp[n];
+    }
 
     public static void main(String[] args) {
-        int n= 3;
+        int n= 6;
         int[] dp= new int[n+1];
-        System.out.println(solve(n,dp));
+        System.out.println(solveBottonUp(n,dp));
 
     }
 }
