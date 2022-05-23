@@ -30,7 +30,7 @@ KnapSackParentProblem {
         // intialisation can be avoided cause it alread has 0s.
         for (int i = 1; i < n+1; i++) {
             for (int j = 1; j < w+1; j++) {
-               if(wt[i-1]>w){
+               if(wt[i-1]>j){
                    t[i][j]=t[i-1][j];
                }
                else {
