@@ -1,4 +1,4 @@
-package algorithms.dp;
+package algorithms.dp.inClass;
 
 public class NStairs {
     // memoization approach

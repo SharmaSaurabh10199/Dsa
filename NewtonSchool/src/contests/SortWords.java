@@ -10,9 +10,9 @@ import java.util.Scanner;
 public class SortWords {
     static void sortWords(String str){
         String[] s= str.split(" ");
-        for (int i = 0; i < s.length; i++) {
-            System.out.println(s[i]+" ");
-        }
+//        for (int i = 0; i < s.length; i++) {
+//            System.out.println(s[i]+" ");
+//        }
         Arrays.sort(s);
         System.out.println(s.length);
 
@@ -23,9 +23,9 @@ public class SortWords {
     }
 
     public static void main(String[] args) {
-       // String str= "i am a rockstar developer";
+//        String str= "i am a rockstar developer";
         Scanner sc= new Scanner(System.in);
-        String str= sc.next();
+        String str= sc.nextLine();
         sortWords(str);
     }
 }
