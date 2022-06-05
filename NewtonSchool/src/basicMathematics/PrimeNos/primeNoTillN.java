@@ -47,7 +47,7 @@ public class primeNoTillN {
     // sieve of erastomers, most optimised solution
     public static void sieveOfErastomers(int n){
         int[] arr= new int[n+1];
-        for(int i=2; i*1<=n;i++){
+        for(int i=2; i*i<=n;i++){
             if(arr[i]==0){
                 for(int j=i*i; j<=n;j+=i){
                     arr[j]=1;

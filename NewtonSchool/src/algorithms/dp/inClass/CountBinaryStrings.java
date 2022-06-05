@@ -8,6 +8,7 @@ package algorithms.dp.inClass;
 // O/P -> 8
  */
 public class CountBinaryStrings {
+
     // could have been done by using dp array too
     int  countBinaryStrings(int n){
         int old0=1;

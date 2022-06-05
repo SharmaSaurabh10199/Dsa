@@ -1,4 +1,4 @@
-package algorithms.dp.longestCommonSubSeq;
+package algorithms.dp.mcm;
 /*
 Given a boolean expression S of length N with following symbols.
 Symbols
@@ -46,9 +46,17 @@ public class booleanParenthesis {
         }
         if(i==j){
             if(isTrue==1){
-                return 1;
+                if(s.charAt(i)=='T'){
+                    return 1;
+                }
+                return 0;
             }
-            return 0;
+            else {
+                if(s.charAt(i)=='F'){
+                    return 1;
+                }
+                return 0;
+            }
         }
         if( mat[i][j][isTrue]!=0){
             return mat[i][j][isTrue];

@@ -24,6 +24,7 @@ The number of operations are -
 public class parentProblem {
     static int matrixMultiplication(int N, int arr[])
     {
+
         // code here
         int[][] t= new int[N+1][N+1];
         for (int i = 0; i < N+1; i++) {

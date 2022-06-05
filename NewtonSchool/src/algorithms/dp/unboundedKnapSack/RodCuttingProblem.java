@@ -11,6 +11,7 @@ Output:
 Explanation:
 The maximum obtainable value is 22 by
 cutting in two pieces of lengths 2 and
+
 6, i.e., 5+17=22.
 
 approach: it is basically same as unbounded knapsack problem, just that you have to form the length array by yourself

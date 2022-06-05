@@ -25,6 +25,7 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 public class TargetSum {
     static public int findTargetSumWays(int[] arr, int diff) {
         int sum=0;
+
         for(int item: arr){
             sum+=item;
         }
