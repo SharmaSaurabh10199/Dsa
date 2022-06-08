@@ -40,6 +40,10 @@ moving in a circular fashion, we
 have max subarray as 12, 8, -8, 9,
 -9, 10, which gives maximum sum
 as 22.
+
+approach: in circular subarray, wrapping is involved, so the ans = toatalSum-(miniSumSubArray).
+0r ans= toatalSum-(-MaxSubArraySum : in inverted aerray)
+
  */
 class kedansAlgoInCircularArray{
     public static int maxWithWrap(int[] arr){
@@ -50,8 +54,10 @@ class kedansAlgoInCircularArray{
         int sum=0;
         for (int i = 0; i < arr.length; i++) {
             sum+=arr[i];
+            // array invertion to calculate the min sum subarray
             arr[i]=-arr[i];
         }
+        //
         sum=sum+maxSum(arr);
         return sum>maxKadane?sum:maxKadane;
     }

@@ -12,7 +12,7 @@ BinaryTree {
             this.val=val;
         }
     }
-    static Node root;
+   // static Node root;
 
     public static void main(String[] args) {
         Node node =new Node(1);

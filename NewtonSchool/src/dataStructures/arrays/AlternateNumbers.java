@@ -67,6 +67,7 @@ public class AlternateNumbers {
         System.out.println(Arrays.toString(brr));
         arr=brr;
     }
+    // another approach, probablly better one
     static void rearrange(int[] arr, int n){
         int i=0,j=0;
         ArrayList<Integer> ls1=new ArrayList<>();

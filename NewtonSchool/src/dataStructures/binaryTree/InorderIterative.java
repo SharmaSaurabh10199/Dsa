@@ -43,7 +43,7 @@ public class InorderIterative {
         Stack<Node > st2= new Stack<>();
         ArrayList<Integer> list= new ArrayList<>();
         st1.push(root);
-        while (!st2.isEmpty()){
+        while (!st1.isEmpty()){
             Node node= st1.pop();
             st2.push(node);
             if(node.left!=null){

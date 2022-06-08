@@ -2,7 +2,8 @@ package dataStructures.arrays;
 
 import java.util.Arrays;
 
-public class ThreeSumClosest {
+public class
+ThreeSumClosest {
     public static int closestsum(int[] arr,int n,int key) {
         Arrays.sort(arr);
         int minDiff = Integer.MAX_VALUE;

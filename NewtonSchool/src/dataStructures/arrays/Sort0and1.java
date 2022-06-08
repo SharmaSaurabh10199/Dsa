@@ -30,7 +30,9 @@ public class Sort0and1 {
         }
     }
 }
-class Sort012{
+class
+
+Sort012{
     public static void main(String[] args) {
         int[] arr={2,0,1,2,2,0,0,1,1,1,};
         dns(arr,arr.length);

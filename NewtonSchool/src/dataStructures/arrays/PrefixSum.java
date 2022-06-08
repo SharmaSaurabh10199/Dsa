@@ -17,15 +17,6 @@ public class PrefixSum {
      prefixSum(arr,0, arr.length-1);
     }
     public static void  prefixSum(int[] arr, int start, int end){
-//       int[] arrNew= new int[arr.length+1];
-//        int sum=0;
-//        for(int i=0; i<arr.length; i++){
-//            arrNew[i]=sum;
-//            sum+=arr[i];
-//        }
-//        arrNew[arr.length]=sum;
-//        int res= arrNew[end]-arrNew[start-1];
-//        return res;
         int sum=0;
         for (int i = start; i <=end ; i++) {
             sum+=arr[i];
