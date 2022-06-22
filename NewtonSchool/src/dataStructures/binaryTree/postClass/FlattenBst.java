@@ -1,6 +1,5 @@
 package dataStructures.binaryTree.postClass;
-
-public class FlattenBst {
+class flattenBst {
     static Node prev;
     public Node flatten(Node root){
         Node dummy= new Node(-1);

@@ -33,6 +33,7 @@ public class DijkstrasAlgo {
             Node node= pq.poll();
             for(Node  it: adj.get(node.v)){
                 // push in queue id the distance is smaller than the curr distance
+
                 if(distance[node.v]+it.w<distance[it.v]){
                     distance[it.v]= distance[node.v]+it.w;
                     pq.add(new Node(it.v,distance[it.v]));

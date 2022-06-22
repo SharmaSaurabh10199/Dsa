@@ -3,6 +3,7 @@ package algorithms.binarySearch;
 you are given a sorted array, you have to find the floor and ceil values of given key
  */
 public class
+
 FloorAndCeilValues {
     public static void main(String[] args) {
         int[] arr={1,2,4,6,8,9};

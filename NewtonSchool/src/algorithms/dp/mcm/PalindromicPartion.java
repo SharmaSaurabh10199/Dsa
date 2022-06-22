@@ -3,7 +3,10 @@ package algorithms.dp.mcm;
 import java.util.Arrays;
 
 /*
-Given a string str, a partitioning of the string is a palindrome partitioning if every sub-string of the partition is a palindrome. Determine the fewest cuts needed for palindrome partitioning of given string.
+Given a string str, a partitioning of the string is a palindrome partitioning if every sub-string of the partition is a palindrome.
+
+
+Determine the fewest cuts needed for palindrome partitioning of given string.
 
 
 Example 1:

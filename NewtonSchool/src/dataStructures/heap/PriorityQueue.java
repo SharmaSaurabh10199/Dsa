@@ -105,6 +105,7 @@ PriorityQueue {
         }
         heap[heapSize++]= Integer.MIN_VALUE;
         increaseKey(heapSize-1,key);
+
     }
     public void print(){
         for (int i = 0; i < heapSize; i++) {

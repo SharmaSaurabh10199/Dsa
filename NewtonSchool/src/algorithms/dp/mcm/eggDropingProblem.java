@@ -5,7 +5,10 @@ import java.util.Arrays;
 /*
 You are given N identical eggs and you have access to a K-floored building from 1 to K.
 
-There exists a floor f where 0 <= f <= K such that any egg dropped at a floor higher than f will break, and any egg dropped at or below floor f will not break. There are few rules given below.
+There exists a floor f where 0 <= f <= K such that any egg dropped at a floor higher than f will break, and any egg dropped at or below
+
+
+floor f will not break. There are few rules given below.
 
 An egg that survives a fall can be used again.
 A broken egg must be discarded.

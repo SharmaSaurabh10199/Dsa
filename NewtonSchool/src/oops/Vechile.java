@@ -14,7 +14,7 @@ public class Vechile {
     public void run(){
         System.out.println("the vechile is running");
     }
-    public void brake(){
+    public static void brake(){
         System.out.println("brakes are being applied on vechile");
     }
     public void start(){

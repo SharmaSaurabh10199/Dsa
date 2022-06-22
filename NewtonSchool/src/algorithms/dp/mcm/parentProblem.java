@@ -21,7 +21,8 @@ The number of operations are -
     the approach is to solve it recursively, find the minum of all the possible answers
 
  */
-public class parentProblem {
+public class
+parentProblem {
     static int matrixMultiplication(int N, int arr[])
     {
 
@@ -32,12 +33,12 @@ public class parentProblem {
                 t[i][j]=-1;
             }
         }
-        int[] min= {Integer.MAX_VALUE};
         return solve(arr,1,N-1,t);
 
     }
     static int solve(int[] arr, int i, int j,int[][] t){
-        if(j>=i){
+        if(i>=j
+        ){
             return 0;
         }
         int min=Integer.MAX_VALUE;
