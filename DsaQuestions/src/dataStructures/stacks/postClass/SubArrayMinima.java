@@ -18,7 +18,7 @@ Sample Output
 Explaination
 all subarrays [1] [1,2] [1,2,3] [2] [2,3] [3]
  */
-public class SubArrayinima {
+public class SubArrayMinima {
     public static void main(String[] args) {
         int[] arr={3,1,2,4};
         //result(arr,arr.length);
