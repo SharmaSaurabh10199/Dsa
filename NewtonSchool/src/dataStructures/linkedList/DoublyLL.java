@@ -1,6 +1,7 @@
 package dataStructures.linkedList;
 
-public class DoublyLL {
+public class
+DoublyLL {
     class Node{
         Node next;
         Node prev;

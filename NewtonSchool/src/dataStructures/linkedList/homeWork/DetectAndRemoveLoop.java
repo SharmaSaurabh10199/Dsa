@@ -21,7 +21,8 @@ Explanation: The link list looks like
 A loop is present. If you remove it
 successfully, the answer will be 1.
  */
-public class DetectAndRemoveLoop {
+public class
+DetectAndRemoveLoop {
     class Node
     {
         int data;

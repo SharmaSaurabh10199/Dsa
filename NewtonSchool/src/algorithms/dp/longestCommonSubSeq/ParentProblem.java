@@ -51,7 +51,7 @@ public class ParentProblem {
                 t[i][j]=-1;
             }
         }
-        return longestCommonSubSequence(text1, text2, n, m, t);
+        return tabulationApproach(text1, text2, n, m, t);
     }
 
     public static void main(String[] args) {

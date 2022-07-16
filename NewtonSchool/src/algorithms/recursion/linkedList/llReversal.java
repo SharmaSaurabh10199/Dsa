@@ -1,6 +1,7 @@
 package algorithms.recursion.linkedList;
 
-public class llReversal {
+public class
+llReversal {
     static class Node{
         int val;
         Node next;
