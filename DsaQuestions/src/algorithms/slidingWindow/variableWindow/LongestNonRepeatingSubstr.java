@@ -27,6 +27,8 @@ public class LongestNonRepeatingSubstr {
                     }
                     i++;
                 }
+                // one possible result lie here, but this value will always be samller than stored so this will not make
+                // that big diff.
                 j++;
             }
 

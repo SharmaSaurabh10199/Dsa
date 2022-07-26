@@ -2,7 +2,8 @@ package algorithms.hashing;
 
 import java.util.HashMap;
 
-public class PairSumCount {
+public class
+PairSumCount {
     public static void main(String[] args) {
 
     }
