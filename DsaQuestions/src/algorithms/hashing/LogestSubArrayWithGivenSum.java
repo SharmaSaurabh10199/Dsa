@@ -23,6 +23,7 @@ method:2 O(n) best optimized solution by hashing
  */
 public class
 
+
 LogestSubArrayWithGivenSum {
     public static void main(String[] args) {
        int[] arr={10,5,2,7,1,9};

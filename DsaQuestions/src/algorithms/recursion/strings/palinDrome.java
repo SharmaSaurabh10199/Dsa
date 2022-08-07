@@ -1,6 +1,8 @@
 package algorithms.recursion.strings;
 
-public class palinDrome {
+public class
+
+palinDrome {
     public static boolean isPalinDrome(String str){
         if(str.length()==0||str.length()==1){
             return true;

@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab0d4dab-74c4-4b6d-8501-e8c7c356c7e7" name="Changes" comment="nary search tree">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/Applications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/bitManipulation/Theory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contests/kedane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contests/power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rough/CollectCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rough/DsaEasy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/dp/inClass/CatalanNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/dp/inClass/CatalanNo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/dp/longestCommonSubSeq/ParentProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/dp/longestCommonSubSeq/ParentProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/recursion/linkedList/llReversal$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/recursion/linkedList/llReversal$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/recursion/linkedList/llReversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/algorithms/recursion/linkedList/llReversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/heap/PriorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/heap/PriorityQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/heap/questions/SortNearlySortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/heap/questions/SortNearlySortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/heap/questions/TaskScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/heap/questions/TaskScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/DoublyLL$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/DoublyLL$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/DoublyLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/DoublyLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/Add1Toll$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/Add1Toll$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/Add1Toll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/Add1Toll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/DetectAndRemoveLoop$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/DetectAndRemoveLoop$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/DetectAndRemoveLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/DetectAndRemoveLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/RemoveDuplicates$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/RemoveDuplicates$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/linkedList/homeWork/RemoveDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/stacks/inClass/greaterToLeft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DsaQuestions/dataStructures/stacks/inClass/greaterToLeft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/dp/inClass/CatalanNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dp/inClass/CatalanNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/dp/longestCommonSubSeq/ParentProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dp/longestCommonSubSeq/ParentProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/recursion/linkedList/llReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursion/linkedList/llReversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/heap/questions/SortNearlySortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/heap/questions/SortNearlySortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/heap/questions/TaskScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/heap/questions/TaskScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/linkedList/DoublyLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/linkedList/DoublyLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/linkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/linkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/Add1Toll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/Add1Toll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/DetectAndRemoveLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/DetectAndRemoveLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/partitionLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/partitionLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/greaterToLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/greaterToLeft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/greaterToRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/greaterToRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/postfixToInfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/postfixToInfix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/restrictiveCandyCrush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructures/stacks/inClass/restrictiveCandyCrush.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Data Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="248E3v54pLrCnxikPrLmSMZomIY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Oops" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Algorithms.Recursion.linkedList" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.greaterToLeft">
+    <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.bitManipulation.Application2" />
+      <module name="DsaQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.bitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DsaEasy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rough.DsaEasy" />
+      <module name="DsaQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rough.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.linkedList.Main" />
+      <module name="DsaQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructures.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortNearlySortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.heap.questions.SortNearlySortedArray" />
+      <module name="DsaQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructures.heap.questions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greaterToLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructures.stacks.inClass.greaterToLeft" />
+      <module name="DsaQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructures.stacks.inClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.greaterToLeft" />
+        <item itemvalue="Application.DsaEasy" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SortNearlySortedArray" />
+        <item itemvalue="Application.Application2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab0d4dab-74c4-4b6d-8501-e8c7c356c7e7" name="Changes" comment="" />
+      <created>1643003620499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643003620499</updated>
+    </task>
+    <task id="LOCAL-00001" summary="nary search tree">
+      <created>1653154873894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653154873894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nary search tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="nary search tree" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/Gcd/CloseestBuddy.java</url>
+          <line>21</line>
+          <properties class="basicMathematics.Gcd.CloseestBuddy" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/Gcd/CloseestBuddy.java</url>
+          <line>45</line>
+          <properties class="basicMathematics.Gcd.CloseestBuddy" method="gcd">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/FractionToDecimal.java</url>
+          <line>3</line>
+          <properties class="rough.FractionToDecimal" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/FractionToDecimal.java</url>
+          <line>6</line>
+          <properties class="rough.FractionToDecimal" method="decimal">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/RotateArray.java</url>
+          <line>15</line>
+          <properties class="dataStructures.arrays.RotateArray" method="rotateLeft">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/RotateArray.java</url>
+          <line>34</line>
+          <properties class="dataStructures.arrays.RotateArray" method="reverse">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/RotateArray.java</url>
+          <line>9</line>
+          <properties class="dataStructures.arrays.RotateArray" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/PrimeNos/FirstNprimeNos.java</url>
+          <line>23</line>
+          <properties class="basicMathematics.PrimeNos.FirstNprimeNos">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/PrimeNos/FirstNprimeNos.java</url>
+          <line>38</line>
+          <properties class="basicMathematics.PrimeNos.FirstNprimeNos">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/Xor.java</url>
+          <line>29</line>
+          <properties class="rough.Xor" method="fun">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/Xor.java</url>
+          <line>19</line>
+          <properties class="rough.Xor" method="fun">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/Xor.java</url>
+          <line>40</line>
+          <properties class="rough.Xor">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/Xor.java</url>
+          <line>34</line>
+          <properties class="rough.Xor">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/PrimeNos/FirstNprimeNos.java</url>
+          <line>65</line>
+          <properties class="basicMathematics.PrimeNos.FirstNprimeNos">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/BinarySearchImplimentation.java</url>
+          <line>32</line>
+          <properties class="algorithms.binarySearch.BinarySearchImplimentation" method="recursiveBinarySearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/BinarySearchImplimentation.java</url>
+          <line>7</line>
+          <properties class="algorithms.binarySearch.BinarySearchImplimentation" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/assignments/Jan31/ques4.java</url>
+          <line>5</line>
+          <properties class="assignments.Jan31.ques4">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/assignments/Jan31/ques4.java</url>
+          <line>13</line>
+          <properties class="assignments.Jan31.ques4">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/assignments/Feb15/Ques2.java</url>
+          <line>23</line>
+          <properties class="assignments.Feb15.Ques2" method="isSortedAndRotated">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/assignments/Feb15/Ques2.java</url>
+          <line>5</line>
+          <properties class="assignments.Feb15.Ques2" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/sorting/ApplicationAndQuestions/NoOfInversions.java</url>
+          <line>30</line>
+          <properties class="algorithms.sorting.ApplicationAndQuestions.NoOfInversions" method="countInversions">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/sorting/ApplicationAndQuestions/NoOfInversions.java</url>
+          <line>40</line>
+          <properties class="algorithms.sorting.ApplicationAndQuestions.NoOfInversions" method="merge">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/assignments/feb15Strings/ques1.java</url>
+          <line>14</line>
+          <properties class="assignments.feb15Strings.ques1" method="largeSum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/assignments/feb15Strings/ques1.java</url>
+          <line>5</line>
+          <properties class="assignments.feb15Strings.ques1" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/KthSmallestDiff.java</url>
+          <line>41</line>
+          <properties class="algorithms.binarySearch.KthSmallestDiff" method="kthSmallestDigg">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/KthSmallestDiff.java</url>
+          <line>22</line>
+          <properties class="algorithms.binarySearch.KthSmallestDiff" method="pairCount">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/KthSmallestDiff.java</url>
+          <line>6</line>
+          <properties class="algorithms.binarySearch.KthSmallestDiff" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInRotatedSorted.java</url>
+          <line>63</line>
+          <properties class="algorithms.binarySearch.SearchInRotatedSorted" method="binarySearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInRotatedSorted.java</url>
+          <line>40</line>
+          <properties class="algorithms.binarySearch.SearchInRotatedSorted" method="findPivot">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInRotatedSorted.java</url>
+          <line>18</line>
+          <properties class="algorithms.binarySearch.SearchInRotatedSorted" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInRotatedSorted.java</url>
+          <line>24</line>
+          <properties class="algorithms.binarySearch.SearchInRotatedSorted" method="findInSortedRotated">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/MaxInBiotonuicSequence.java</url>
+          <line>24</line>
+          <properties class="algorithms.binarySearch.MaxInBiotonuicSequence" method="biotonicPoint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/MaxInBiotonuicSequence.java</url>
+          <line>20</line>
+          <properties class="algorithms.binarySearch.MaxInBiotonuicSequence" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBiotonicSequence.java</url>
+          <line>10</line>
+          <properties class="algorithms.binarySearch.SearchInBiotonicSequence" method="searchInBiotonic">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBiotonicSequence.java</url>
+          <line>52</line>
+          <properties class="algorithms.binarySearch.SearchInBiotonicSequence" method="binarySearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBiotonicSequence.java</url>
+          <line>33</line>
+          <properties class="algorithms.binarySearch.SearchInBiotonicSequence" method="biotonicPoint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBiotonicSequence.java</url>
+          <line>6</line>
+          <properties class="algorithms.binarySearch.SearchInBiotonicSequence" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/ReverseWordsInString.java</url>
+          <line>23</line>
+          <properties class="dataStructures.strings.ReverseWordsInString">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/ReverseWordsInString.java</url>
+          <line>30</line>
+          <properties class="dataStructures.strings.ReverseWordsInString">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/matrix/SaddlePoint.java</url>
+          <line>21</line>
+          <properties class="dataStructures.matrix.SaddlePoint" method="saddlePoint">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/twoPointerApproach/ClosestPair.java</url>
+          <line>18</line>
+          <properties class="algorithms.twoPointerApproach.ClosestPair" method="findPair">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/twoPointerApproach/ClosestPair.java</url>
+          <line>13</line>
+          <properties class="algorithms.twoPointerApproach.ClosestPair" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/twoPointerApproach/TripletsWith0Sum.java</url>
+          <line>25</line>
+          <properties class="algorithms.twoPointerApproach.TripletsWith0Sum" method="findTriplet">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/twoPointerApproach/TripletsWith0Sum.java</url>
+          <line>21</line>
+          <properties class="algorithms.twoPointerApproach.TripletsWith0Sum" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/sorting/ApplicationAndQuestions/SortArray1byArray2.java</url>
+          <line>26</line>
+          <properties class="algorithms.sorting.ApplicationAndQuestions.SortArray1byArray2" method="sortA1ByA2">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/sorting/ApplicationAndQuestions/SortArray1byArray2.java</url>
+          <line>21</line>
+          <properties class="algorithms.sorting.ApplicationAndQuestions.SortArray1byArray2" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/MedianOf2SortedArrays.java</url>
+          <line>43</line>
+          <properties class="algorithms.binarySearch.MedianOf2SortedArrays" method="findMedianSortedArrays">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/AlternateNumbers.java</url>
+          <line>33</line>
+          <properties class="dataStructures.arrays.AlternateNumbers" method="alternateArray">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/AlternateNumbers.java</url>
+          <line>27</line>
+          <properties class="dataStructures.arrays.AlternateNumbers" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/JumpGame.java</url>
+          <line>21</line>
+          <properties class="dataStructures.arrays.JumpGame" method="jumpGame">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/JumpGame.java</url>
+          <line>36</line>
+          <properties class="dataStructures.arrays.JumpGame" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/LinkedList.java</url>
+          <line>79</line>
+          <properties class="dataStructures.linkedList.LinkedList" method="updateAtIndex">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/classQuestions/palindromeLL.java</url>
+          <line>65</line>
+          <properties class="dataStructures.linkedList.classQuestions.palindromeLL" method="reverseBypointer">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/classQuestions/palindromeLL.java</url>
+          <line>54</line>
+          <properties class="dataStructures.linkedList.classQuestions.palindromeLL" method="middleOfLl">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/classQuestions/palindromeLL.java</url>
+          <line>32</line>
+          <properties class="dataStructures.linkedList.classQuestions.palindromeLL" method="isaPalindrome">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/Brackets.java</url>
+          <line>5</line>
+          <properties class="dataStructures.stacks.Brackets" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/Brackets.java</url>
+          <line>9</line>
+          <properties class="dataStructures.stacks.Brackets" method="isValid">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/RotateByDque.java</url>
+          <line>7</line>
+          <properties class="rough.RotateByDque" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/hashing/PairDivisiblityExistence.java</url>
+          <line>50</line>
+          <properties class="algorithms.hashing.PairDivisiblityExistence" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/hashing/PairDivisiblityExistence.java</url>
+          <line>18</line>
+          <properties class="algorithms.hashing.PairDivisiblityExistence" method="canPair">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/slidingWindow/variableWindow/LongestSubArrWithSumk.java</url>
+          <line>3</line>
+          <properties class="algorithms.slidingWindow.variableWindow.LongestSubArrWithSumk" method="longestSubArray">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/queue/QueueByLL.java</url>
+          <line>36</line>
+          <properties class="dataStructures.queue.QueueByLL" method="pollFront">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/queue/Main.java</url>
+          <line>3</line>
+          <properties class="dataStructures.queue.Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/slidingWindow/variableWindow/MinimunWindowSubstr.java</url>
+          <line>12</line>
+          <properties class="algorithms.slidingWindow.variableWindow.MinimunWindowSubstr" method="miniWindow">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/inClass/postfixToInfix.java</url>
+          <line>56</line>
+          <properties class="dataStructures.stacks.inClass.InfixtoPostFix">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/inClass/postfixToInfix.java</url>
+          <line>103</line>
+          <properties class="dataStructures.stacks.inClass.postFixEval">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/inClass/postfixToInfix.java</url>
+          <line>143</line>
+          <properties class="dataStructures.stacks.inClass.postFixEval">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/postClass/pairHate.java</url>
+          <line>55</line>
+          <properties class="dataStructures.stacks.postClass.pairHate" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/postClass/pairHate.java</url>
+          <line>20</line>
+          <properties class="dataStructures.stacks.postClass.pairHate" method="modify">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/contests/findAns.java</url>
+          <line>3</line>
+          <properties class="contests.findAns" method="findZero">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/partitionLL.java</url>
+          <line>23</line>
+          <properties class="dataStructures.linkedList.homeWork.partitionLL" method="partition">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/postClass/minString.java</url>
+          <line>18</line>
+          <properties class="dataStructures.stacks.postClass.minString" method="minString">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/nextGreaterpalindrome.java</url>
+          <line>4</line>
+          <properties class="dataStructures.strings.nextGreaterpalindrome" method="nextGreaterPalin">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/ro.java</url>
+          <line>7</line>
+          <properties class="rough.ro" method="nextGreaterPalin">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/kmp.java</url>
+          <line>6</line>
+          <properties class="dataStructures.strings.kmp" method="prefixArray">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/atoi.java</url>
+          <line>20</line>
+          <properties class="dataStructures.strings.atoi" method="convertStrTiInt">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/patternMatch.java</url>
+          <line>19</line>
+          <properties class="dataStructures.strings.patternMatch" method="lookandsay">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/numbers/decimalToBinary.java</url>
+          <line>3</line>
+          <properties class="algorithms.recursion.numbers.decimalToBinary" method="binary">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/divideAndConc/BinarySearch.java</url>
+          <line>3</line>
+          <properties class="algorithms.recursion.divideAndConc.BinarySearch" method="binarySearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/divideAndConc/MergeSort.java</url>
+          <line>10</line>
+          <properties class="algorithms.recursion.divideAndConc.MergeSort" method="mergeSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/divideAndConc/MergeSort.java</url>
+          <line>18</line>
+          <properties class="algorithms.recursion.divideAndConc.MergeSort" method="merge">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/linkedList/llReversal.java</url>
+          <line>13</line>
+          <properties class="algorithms.recursion.linkedList.llReversal">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/linkedList/merge2SortedLL.java</url>
+          <line>10</line>
+          <properties class="algorithms.recursion.linkedList.merge2SortedLL" method="merge">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/sorting/RecursiveSelectionSort.java</url>
+          <line>5</line>
+          <properties class="algorithms.recursion.sorting.RecursiveSelectionSort" method="selectionSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/sorting/RecursiveInsertionSort.java</url>
+          <line>5</line>
+          <properties class="algorithms.recursion.sorting.RecursiveInsertionSort" method="insersionSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/stack/deleteMiddle.java</url>
+          <line>5</line>
+          <properties class="algorithms.recursion.stack.deleteMiddle" method="deleteMiddle">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/mislenious/KthSymbolInGrammer.java</url>
+          <line>6</line>
+          <properties class="algorithms.recursion.mislenious.KthSymbolInGrammer" method="genrateNum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/strings/generateBalancedParanthesis.java</url>
+          <line>14</line>
+          <properties class="algorithms.recursion.strings.generateBalancedParanthesis" method="generateParenthesis">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/strings/generateBalancedParanthesis.java</url>
+          <line>22</line>
+          <properties class="algorithms.recursion.strings.generateBalancedParanthesis" method="result">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/Thirdmax.java</url>
+          <line>6</line>
+          <properties class="mockInterviews.Thirdmax" method="thirdMaxChar">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/mislenious/JosephusProblem.java</url>
+          <line>34</line>
+          <properties class="algorithms.recursion.mislenious.JosephusProblem" method="solve">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/mislenious/JosephusProblem.java</url>
+          <line>26</line>
+          <properties class="algorithms.recursion.mislenious.JosephusProblem" method="findSafe">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/llPalindrome.java</url>
+          <line>11</line>
+          <properties class="mockInterviews.llPalindrome" method="isPalindrome">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/llPalindrome.java</url>
+          <line>29</line>
+          <properties class="mockInterviews.llPalindrome" method="findmiddle">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/llPalindrome.java</url>
+          <line>38</line>
+          <properties class="mockInterviews.llPalindrome" method="reverse">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/longestCommonPrefix.java</url>
+          <line>6</line>
+          <properties class="mockInterviews.longestCommonPrefix" method="longestPrefix">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/Maximum1s.java</url>
+          <line>25</line>
+          <properties class="dataStructures.arrays.Maximum1s">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/AllocateBooks.java</url>
+          <line>7</line>
+          <properties class="algorithms.binarySearch.AllocateBooks" method="isValid">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/AllocateBooks.java</url>
+          <line>29</line>
+          <properties class="algorithms.binarySearch.AllocateBooks" method="minPages">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/BinaryTree.java</url>
+          <line>131</line>
+          <properties class="dataStructures.binaryTree.BinaryTree" method="findMin">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/MedianOf2SortedArrays.java</url>
+          <line>84</line>
+          <properties class="algorithms.binarySearch.kthElementIn2SortedArr" method="result">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/ThreeSumClosest.java</url>
+          <line>6</line>
+          <properties class="dataStructures.arrays.ThreeSumClosest" method="closestsum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/KedansAlgo.java</url>
+          <line>48</line>
+          <properties class="dataStructures.arrays.kedansAlgoInCircularArray" method="maxWithWrap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/postClass/ConstructBtreeFromInAndPre.java</url>
+          <line>55</line>
+          <properties class="dataStructures.binaryTree.postClass.ConstructBtreeFromInAndPre" method="buildTree">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/postClass/ConstructBtreeFromInAndPre.java</url>
+          <line>47</line>
+          <properties class="dataStructures.binaryTree.postClass.ConstructBtreeFromInAndPre" method="buildTreeFromPostAndIn">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/contests/ScoreBar.java</url>
+          <line>7</line>
+          <properties class="contests.ScoreBar" method="nextgreater">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/Maxheap.java</url>
+          <line>75</line>
+          <properties class="dataStructures.heap.Maxheap" method="BuildHeap">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/PriorityQueue.java</url>
+          <line>88</line>
+          <properties class="dataStructures.heap.PriorityQueue" method="decreaseKey">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/KClosestNos.java</url>
+          <line>22</line>
+          <properties class="dataStructures.heap.questions.KClosestNos" method="closestKnos">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/TopKFreqElements.java</url>
+          <line>35</line>
+          <properties class="dataStructures.heap.questions.TopKFreqElements" method="topKFrequent">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/hashing/CustomHm.java</url>
+          <line>34</line>
+          <properties class="algorithms.hashing.CustomHm" method="put">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/MergeKSortedArrays.java</url>
+          <line>25</line>
+          <properties class="dataStructures.heap.questions.MergeKSortedArrays" method="mergeKArrays">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/KweakestRows.java</url>
+          <line>58</line>
+          <properties class="dataStructures.heap.questions.KweakestRows" method="countOnes">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/KweakestRows.java</url>
+          <line>79</line>
+          <properties class="dataStructures.heap.questions.KweakestRows" method="kWeakestRows">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/FourSum.java</url>
+          <line>26</line>
+          <properties class="rough.FourSum" method="fourSum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/hashing/randomQuestions.java</url>
+          <line>21</line>
+          <properties class="algorithms.hashing.randomQuestions" method="isAnagram">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/palindrome.java</url>
+          <line>29</line>
+          <properties class="dataStructures.strings.greaterWithSameDigits" method="nextGreater">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/PermutationsOfString.java</url>
+          <line>17</line>
+          <properties class="dataStructures.strings.PermutationsOfString" method="printPermutations">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/SubstrWithEqual01.java</url>
+          <line>10</line>
+          <properties class="dataStructures.strings.SubstrWithEqual01" method="maxSubStr">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/SudokuSolver.java</url>
+          <line>14</line>
+          <properties class="algorithms.backTracking.SudokuSolver" method="sudokuSolver">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/RatInmaze.java</url>
+          <line>30</line>
+          <properties class="algorithms.backTracking.RatInmaze" method="findPath">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/RatInmaze.java</url>
+          <line>37</line>
+          <properties class="algorithms.backTracking.RatInmaze" method="solve">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/PalindrimicPartitining.java</url>
+          <line>28</line>
+          <properties class="algorithms.backTracking.PalindrimicPartitining" method="solve">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/PalindrimicPartitining.java</url>
+          <line>41</line>
+          <properties class="algorithms.backTracking.PalindrimicPartitining" method="isPalindrome">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/WordSolver.java</url>
+          <line>30</line>
+          <properties class="algorithms.backTracking.WordSolver" method="solve">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/WordSolver.java</url>
+          <line>54</line>
+          <properties class="algorithms.backTracking.WordSolver" method="exist">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/WordSolver.java</url>
+          <line>66</line>
+          <properties class="algorithms.backTracking.WordSolver" method="wordSearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/contests/SortWords.java</url>
+          <line>10</line>
+          <properties class="contests.SortWords" method="sortWords">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/knapSack/NaryTree.java</url>
+          <line>7</line>
+          <properties class="algorithms.dp.knapSack.NaryTree" method="NaryTree">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/knapSack/MinimumSubsetSumDiff.java</url>
+          <line>23</line>
+          <properties class="algorithms.dp.knapSack.MinimumSubsetSumDiff" method="minDifference">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/knapSack/TargetSum.java</url>
+          <line>25</line>
+          <properties class="algorithms.dp.knapSack.TargetSum" method="findTargetSumWays">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/knapSack/TargetSum.java</url>
+          <line>42</line>
+          <properties class="algorithms.dp.knapSack.TargetSum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/inClass/goldMineProblem.java</url>
+          <line>25</line>
+          <properties class="algorithms.dp.inClass.goldMineProblem" method="maxGold">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/mcm/eggDropingProblem.java</url>
+          <line>40</line>
+          <properties class="algorithms.dp.mcm.eggDropingProblem" method="eggDrop">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/mcm/eggDropingProblem.java</url>
+          <line>50</line>
+          <properties class="algorithms.dp.mcm.eggDropingProblem" method="solve">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/kanpSack01.java</url>
+          <line>5</line>
+          <properties class="mockInterviews.kanpSack01" method="solve">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/kanpSack01.java</url>
+          <line>19</line>
+          <properties class="mockInterviews.kanpSack01" method="kanpSack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/targetSum.java</url>
+          <line>3</line>
+          <properties class="mockInterviews.targetSum" method="targetSum">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/naryTree.java</url>
+          <line>7</line>
+          <properties class="rough.naryTree" method="NaryTree">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/lis/ParentProblem.java</url>
+          <line>36</line>
+          <properties class="algorithms.dp.lis.ParentProblem" method="lisTrial">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/connectedComp.java</url>
+          <line>5</line>
+          <properties class="rough.connectedComp" method="findLandMasses">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/rough/connectedComp.java</url>
+          <line>17</line>
+          <properties class="rough.connectedComp" method="solve">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/postClass/NodesAtKDist.java</url>
+          <line>38</line>
+          <properties class="dataStructures.binaryTree.postClass.NodesAtKDist" method="distanceK">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/postClass/NodesAtKDist.java</url>
+          <line>22</line>
+          <properties class="dataStructures.binaryTree.postClass.NodesAtKDist" method="markParents">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/RottenTomatos.java</url>
+          <line>26</line>
+          <properties class="mockInterviews.RottenTomatos" method="findTime">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dataStructures/graph/kruskalsAlgo.java</url>
+          <line>45</line>
+          <properties class="dataStructures.graph.kruskalsAlgo" method="kruskals">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/inClass/CatalanNo.java</url>
+          <line>28</line>
+          <properties class="algorithms.dp.inClass.CatalanNo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/PrimeNos/FirstNprimeNos.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/BinarySearchImplimentation.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/sorting/Sorts/QuickSort.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/SearchInBiotonicSequence.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignments/Feb23/ChessBoard.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/ModuloAirthMatics/PowewOfBigNos.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/ModuloAirthMatics/PowewOfBigNos.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/ModuloAirthMatics/PowewOfBigNos.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicMathematics/ModuloAirthMatics/PowewOfBigNos.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/Main.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/Main.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/classQuestions/palindromeLL.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/hashing/LongestUniqueSubstring.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/slidingWindow/variableWindow/LongestSubArrWithSumk.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/queue/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/slidingWindow/variableWindow/MinimunWindowSubstr.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/RainWaterTrapping.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/RainWaterTrapping.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/inClass/postfixToInfix.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/contests/findAns.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/linkedList/homeWork/partitionLL.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/stacks/postClass/minString.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/nextGreaterpalindrome.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/palindrome.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rough/ro.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rough/ro.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/kmp.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/validIpAddress.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/validIpAddress.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/validIpAddress.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/atoi.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/patternMatch.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/numbers/decimalToBinary.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/divideAndConc/BinarySearch.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/linkedList/llReversal.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/linkedList/merge2SortedLL.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/sorting/RecursiveSelectionSort.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/sorting/RecursiveInsertionSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/stack/deleteMiddle.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/mislenious/KthSymbolInGrammer.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/strings/generateBalancedParanthesis.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/Thirdmax.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/recursion/mislenious/JosephusProblem.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/llPalindrome.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/longestCommonPrefix.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/longestCommonPrefix.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/Maximum1s.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/AllocateBooks.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/BinaryTree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/binarySearch/MedianOf2SortedArrays.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/ThreeSumClosest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/arrays/KedansAlgo.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/postClass/ConstructBtreeFromInAndPre.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/contests/ScoreBar.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/Maxheap.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/PriorityQueue.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/PriorityQueue.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/KClosestNos.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/TopKFreqElements.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/hashing/CustomHm.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/MergeKSortedArrays.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/heap/questions/KweakestRows.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rough/FourSum.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/hashing/randomQuestions.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/palindrome.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/PermutationsOfString.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/strings/SubstrWithEqual01.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/SudokuSolver.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/MaxString.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/PalindrimicPartitining.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/WordSolver.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/WordSolver.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/kthPermutation.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/backTracking/kthPermutation.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/contests/SortWords.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/knapSack/NaryTree.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/knapSack/TargetSum.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/inClass/goldMineProblem.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/mcm/eggDropingProblem.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/kanpSack01.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/targetSum.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rough/naryTree.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/lis/ParentProblem.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rough/connectedComp.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/binaryTree/postClass/NodesAtKDist.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/mockInterviews/RottenTomatos.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dataStructures/graph/kruskalsAlgo.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/inClass/CatalanNo.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dp/inClass/CatalanNo.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/bitManipulation/Application2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NewtonSchool$SearchInBiotonicSequence.ic" NAME="SearchInBiotonicSequence Coverage Results" MODIFIED="1645434402207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Algorithms.binarySearch.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/NewtonSchool$UsingBufferedReader.ic" NAME="UsingBufferedReader Coverage Results" MODIFIED="1646394873053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Rough.*</FILTER>
+    </SUITE>
+  </component>
+</project>

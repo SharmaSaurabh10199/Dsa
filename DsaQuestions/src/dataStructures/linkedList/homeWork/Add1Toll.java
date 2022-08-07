@@ -1,4 +1,5 @@
 package dataStructures.linkedList.homeWork;
+
 /*
 A number (n) is represented in Linked List such that each digit corresponds to a node in linked list. Add 1 to it.
 
@@ -14,22 +15,23 @@ public class Add1Toll {
             next = null;
         }
     }
-    public static Node add1(Node head){
-        Node curr=head;
-        int sum=0, carry=1;
-        while (curr.next!=null){
-            sum=curr.data+carry;
-            curr.data=sum%10;
-            carry=sum/10;
-            curr=curr.next;
+
+    public static Node add1(Node head) {
+        Node curr = head;
+        Node temp = null;
+        int sum = 0, carry = 1;
+        while (curr != null) {
+            sum = curr.data + carry;
+            curr.data = sum % 10;
+            carry = sum / 10;
+            temp = curr;
+            curr = curr.next;
         }
-        sum= curr.data+carry;
-        curr.data=sum;
-        // carry=sum/10;
-        // if(carry>0){
-        //     Node newNode=new Node(carry);
-        //     curr.next=newNode;
-        // }
+
+        if (carry > 0) {
+            Node newNode = new Node(carry);
+            temp.next = newNode;
+        }
         return head;
     }
 }

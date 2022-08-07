@@ -14,6 +14,8 @@ hhoowaaaareyyoouu
 
 Sample Output
 wre
+
+solution: a better approach is using the pair class as done earlier in the question for k=2;
  */
 public class pairHate {
     static String res="";

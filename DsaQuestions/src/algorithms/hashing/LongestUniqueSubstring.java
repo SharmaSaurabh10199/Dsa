@@ -24,9 +24,9 @@ public class LongestUniqueSubstring {
             char c=s.charAt(i);
             if(!set.contains(c)){
                 set.add(c);
+                max=Math.max(set.size(),max);
             }
             else {
-                max=Math.max(set.size(),max);
                 set.clear();
                 set.add(c);
             }

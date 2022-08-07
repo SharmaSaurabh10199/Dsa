@@ -15,7 +15,7 @@ package algorithms.dp.inClass;
 
 // -->there will be 2 for loops here, dp[n] is dependent on dp[0] to dp[n-1] in a new way every time.
 public class CatalanNo {
-    int nthCatalanNo(int n){
+    static int nthCatalanNo(int n){
         int[] dp= new int[n+1];
         dp[0]=1;dp[1]=1;
         for (int i = 2; i <=n ; i++) {
@@ -23,6 +23,11 @@ public class CatalanNo {
                 dp[i]+= dp[j]*dp[i-j-1];
             }
         }
-        return dp[n];
+        return dp[n]%(1000000000+7);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(nthCatalanNo(5));
+
     }
 }

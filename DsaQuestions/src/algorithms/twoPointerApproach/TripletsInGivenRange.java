@@ -17,7 +17,8 @@ Output: 1
 Explaination: There is only one triplet {2, 3, 5}
 having sum 10 in range [7, 11].
  */
-public class TripletsInGivenRange {
+public class
+TripletsInGivenRange {
     public static void main(String[] args) {
 
     }

@@ -59,7 +59,7 @@ public class minString {
     }
 
     public static void main(String[] args) {
-        String str="149811";
+        String str="100789";
         System.out.println(minString(str,3));
     }
 }

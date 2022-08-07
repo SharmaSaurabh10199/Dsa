@@ -9,6 +9,8 @@ public class Main {
         ll.add(4);
         ll.add(5);
         ll.print();
+        ll.insertNode(5,6);
+        ll.print();
 
 //        System.out.println(ll.getSize());
         //System.out.println(ll.remove());

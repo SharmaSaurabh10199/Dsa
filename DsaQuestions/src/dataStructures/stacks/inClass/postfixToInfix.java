@@ -40,7 +40,7 @@ class prefixToInFix{
         for (int i = str.length()-1; i >=0; i--) {
             char c= str.charAt(i);
             if(Character.isLetter(c)){
-                st.push(Character.toString(c));
+                st.push(c+"");
             }
             else {
                 String a= st.pop();
@@ -51,7 +51,8 @@ class prefixToInFix{
         System.out.println(st.peek());
     }
 }
-class InfixtoPostFix{
+class
+InfixtoPostFix{
     public void intoPost(String str){
         Stack<Character> st= new Stack<>();
         String res="";

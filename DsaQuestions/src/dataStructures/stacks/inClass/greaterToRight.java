@@ -10,10 +10,8 @@ public class greaterToRight {
         ArrayList<Integer> list= new ArrayList<>();
         for (int i = n-1; i >=0; i--) {
             // for next smaller, we'll apply the condition as st.peek()>arr[i]. somes goes in while loop
-            if(!st.isEmpty()&& st.peek()<=arr[i]){
-                while (!st.isEmpty()&& st.peek()<=arr[i]){
-                    st.pop();
-                }
+            while (!st.isEmpty()&& st.peek()<=arr[i]){
+                st.pop();
             }
             if(st.isEmpty()){
                 list.add(-1);

@@ -7,8 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         Mobile iphone= new Mobile(4,4000,128,"ios","iphone");
-//        System.out.println(mobile.name);
-//        System.out.println(mobile.battery);
+       System.out.println(iphone.name);
+       System.out.println(iphone.battery);
         Mobile galaxy= new Mobile(8,4500,256,"Android","S20");
         Mobile Google= new Mobile(4,4000,128,"Android","pixel");
 //        galaxy.printDeatails();
@@ -24,6 +24,11 @@ public class Main {
        // count=1;
         m.check();
         a(20,30);
+       // Bike b= new Bike();
+        Vechile v= new Vechile(100,250,2);
+       // v.brake();
+        Vechile.brake();
+
 
     }
     public  void check(){

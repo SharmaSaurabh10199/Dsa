@@ -16,6 +16,8 @@ N = 6
 arr[] = {4, 7, 11, 5, 13, 2}
 Output:
 True
+
+soloution: the intutive approach will e to find the left smaller and the right smaller elements and then getting the result from them.
  */
 public class
 Geeky132pattern {

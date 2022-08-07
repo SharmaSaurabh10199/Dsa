@@ -90,8 +90,9 @@ public  class LinkedList<H> {
         }
         nodeToUpdata.data=data;
     }
+    // add at any index, assuming o based indexing
     public void insertNode(int idx, int data){
-        if(idx<0 || idx>=this.size){
+        if(idx<0 || idx>this.size){
             System.out.println("invalid index");
             return;
         }
@@ -99,7 +100,7 @@ public  class LinkedList<H> {
         if(idx==0){
             addhead(data);
         }
-        else if(idx==this.size-1){
+        else if(idx==this.size){
             add(data);
         }
         else {
@@ -116,13 +117,12 @@ public  class LinkedList<H> {
         }
     }
     // to be asked from mentor.
-
+    // to print the ll
     public void print(){
         Node i= this.head;
-        i=null;
-        while (head!=null){
-            System.out.print(head.data+"->");
-            head=head.next;
+        while (i!=null){
+            System.out.print(i.data+"->");
+            i=i.next;
         }
         System.out.println("null");
     }

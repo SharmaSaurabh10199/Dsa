@@ -4,7 +4,8 @@ import java.util.*;
 
 /*
 Given a characters array tasks, representing the tasks a CPU needs to do, where each letter represents a different task.
-Tasks could be done in any order. Each task is done in one unit of time. For each unit of time, the CPU could complete either one task or just be idle.
+Tasks could be done in any order. Each task is done in one unit of time. For each unit of time, the CPU could complete either one task
+ or just be idle.
 
 However, there is a non-negative integer n that represents the cooldown period between two same tasks (the same letter in the array),
 that is that there must be at least n units of time between any two same tasks.
@@ -35,14 +36,18 @@ public class TaskScheduler {
             ArrayList<Integer> list= new ArrayList<>();
             for (int i = 0; i < n+1; i++) {
                 if(!pq.isEmpty()){
+                    // pop out the tasks
                     list.add(pq.poll());
                 }
             }
             for(int i: list){
                 if(--i>0){
+                    // push back if its still unfinished
                     pq.add(i);
                 }
             }
+            // if its not the last cycle, time will be n+1(idle time has to be counted here), for cycle it will be just
+            // the list size as idle time after these times will not be counted.
             cycle+= pq.isEmpty()? list.size():n+1;
         }
         return cycle;

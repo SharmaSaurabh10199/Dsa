@@ -12,7 +12,7 @@ x = 3
 Output:
 1->2->2->3->3->4->5
  */
-public class partitionLL {
+public class  partitionLL {
     static class Node{
         int data;
         Node next;

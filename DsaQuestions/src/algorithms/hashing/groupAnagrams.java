@@ -21,7 +21,8 @@ Example 2:
 Input: strs = [""]
 Output: [[""]]
  */
-public class groupAnagrams {
+public class
+groupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> res= new ArrayList<>();
         HashMap<String,List<String>> hm= new HashMap<>();

@@ -27,7 +27,7 @@ public class SortNearlySortedArray {
     }
 
     public static void main(String[] args) {
-        int[] arr={7,6,2,3,3};
+        int[] arr={7,6,3,2,3};
         sortNearlySorted(arr,3);
     }
 }

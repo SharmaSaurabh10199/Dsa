@@ -13,6 +13,14 @@ Input:
 N = 7
 arr[] = {10,20,30,50,10,70,30}
 Output: 70 30 20 10 10 10 10
+
+Explanation:
+1.First element in output
+indicates maximum of minimums of all
+windows of size 1.
+2.Minimums of windows of size 1 are {10},
+ {20}, {30}, {50},{10}, {70} and {30}.
+ Maximum of these minimums is 70.
  */
 public class maxOfMinOfEachWind {
 

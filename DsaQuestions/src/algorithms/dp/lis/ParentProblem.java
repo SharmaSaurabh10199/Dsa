@@ -33,13 +33,34 @@ public class ParentProblem {
         }
         return dp[0][-1+1];
     }
+    // one possible wrong way
+    static int lisTrial(int[] arr){
+        int res[] = new int[arr.length];
+        for(int i=0; i<arr.length; i++){
+            int count=1;
+            int prev= arr[i];
+            for (int j = i+1; j < arr.length; j++) {
+                if(prev<arr[j]){
+                    count++;
+                    prev=arr[j];
+                }
+            }
+            res[i]=count;
+        }
+        int max=0;
+        for (int i = 0; i < res.length; i++) {
+            max=Math.max(res[i],max);
+        }
+        return max;
+    }
 
     public static void main(String[] args) {
-        int[] arr={2,1,0,5,7,9};
+        int[] arr={0,1,0,3,2,3};
         int[][] dp= new int[arr.length+1][arr.length+1];
         for(int[] a: dp){
             Arrays.fill(a,-1);
         }
         System.out.println(lis(arr,arr.length,0,-1,dp));
+        System.out.println(lisTrial(arr));
     }
 }

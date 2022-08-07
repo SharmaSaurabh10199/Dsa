@@ -21,7 +21,8 @@ Output: 1
 Explanation: 0th and 2nd person both
 know 1. Therefore, 1 is the celebrity.
  */
-public class TheCelebrityProb {
+public class
+TheCelebrityProb {
     static int M[][];
     int celebrity(int M[][], int n)
     {
@@ -29,6 +30,7 @@ public class TheCelebrityProb {
         for (int i = 0; i < n; i++) {
             st.push(i);
         }
+        // if a knows b, a can't be the celebrity, discard a. if a does not know b, the b can't be the celebrity discard a.
         while (st.size()>1){
             int a= st.pop();
             int b= st.pop();
@@ -39,7 +41,10 @@ public class TheCelebrityProb {
                 st.push(b);
             }
         }
+        // this check is the potential candidate for the celebrity.
         int check=st.peek();
+        // now here check that a is actually celebrity or not, by looking in check row and check column
+        
         for (int i = 0; i < n; i++) {
             if(i!=check){
                 if(M[i][check]==M[check][i]){

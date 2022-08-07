@@ -61,5 +61,6 @@ public class KthSmallesAndLargest {
         return res;
 
     }
+    // kth from the last could also be found out, thne we have to just reverse the steps. i.e: first right then left
 
 }
