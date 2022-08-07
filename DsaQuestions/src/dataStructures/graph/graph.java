@@ -31,6 +31,7 @@ public class graph {
         boolean[] visited = new boolean[adj.length];
         dfsUtil(source, visited);
     }
+
     // to find the shortest distance between 2 nodes
     public int shortestDistance(int V, int S, int D, ArrayList<Integer>[] adj) {
         // Code here
@@ -53,7 +54,8 @@ public class graph {
                 }
             }
         }
-        // here the level array we have created is very useful, we can find all the nodes at a given distance.
+        // here the level array we have created is very useful, we can find all the
+        // nodes at a given distance.
         System.out.println(Arrays.toString(level));
         return level[D];
     }

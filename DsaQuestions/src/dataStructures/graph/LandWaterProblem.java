@@ -25,6 +25,13 @@ public class LandWaterProblem {
         solve(i-1,j,mat);
         solve(i,j+1,mat);
         solve(i,j-1,mat);
+
+        // or we could just use the array
+        int[] dx= {-1,0,0,1};
+        int[] dy= {0,-1,-1,1};
+        for(int k=0; k<4; k++){
+            solve(i+dx[k], j+dy[k], mat);
+        }
         // the time complexity should be o(n2)+ o(n2) at worst case
     }
 
