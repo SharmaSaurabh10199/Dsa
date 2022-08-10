@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class DetectCycleInDirectBfs {
     public boolean hasCycle(int V, ArrayList<ArrayList<Integer>> adj) {
-        int[] topoSort= new int[V];
+        
         int[] inDegree = new int[V];
         for (int i = 0; i < V; i++) {
             for (int neighbour : adj.get(i)) {

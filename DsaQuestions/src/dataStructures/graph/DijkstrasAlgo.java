@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/*  problem statment: 
+Given a graph and a source vertex in the graph, find the shortest paths
+from the source to all vertices in the given graph. */
 public class DijkstrasAlgo {
     class Node {
         int v;
@@ -34,16 +37,10 @@ public class DijkstrasAlgo {
             Node node = pq.poll();
             for (Node it : adj.get(node.v)) {
                 // push in queue id the distance is smaller than the curr distance
-<<<<<<< HEAD
+
                 if (distance[node.v] + it.w < distance[it.v]) {
                     distance[it.v] = distance[node.v] + it.w;
                     pq.add(new Node(it.v, distance[it.v]));
-=======
-
-                if(distance[node.v]+it.w<distance[it.v]){
-                    distance[it.v]= distance[node.v]+it.w;
-                    pq.add(new Node(it.v,distance[it.v]));
->>>>>>> a13415551e92fb2fd7794748153f3144d2e964bc
                 }
             }
         }

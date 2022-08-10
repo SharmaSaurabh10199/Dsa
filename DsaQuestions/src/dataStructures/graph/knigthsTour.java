@@ -1,7 +1,5 @@
 package dataStructures.graph;
 
-import algorithms.backTracking.KnightsTour;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -21,7 +19,9 @@ public class knigthsTour {
         }
 
     }
+
     int[][] visited = new int[8][8];
+
     boolean isValid(int i, int j) {
         if (i < 0 || j < 0 || i >= 7 || j >= 7) {
             return false;
@@ -39,7 +39,7 @@ public class knigthsTour {
             Arrays.fill(a, -1);
         }
 
-        int[] moves = {1, -1, 2, -2};
+        int[] moves = { 1, -1, 2, -2 };
         Queue<pair> q = new LinkedList<>();
         q.add(new pair(sourceI, sourceJ));
         visited[sourceI][sourceJ] = 0;
@@ -48,9 +48,11 @@ public class knigthsTour {
             for (int i : moves) {
                 for (int j : moves) {
                     if (Math.abs(i) != Math.abs(j)) {
-                        if (isValid(currPosition.row + i, currPosition.col + j) && visited[currPosition.row + i][currPosition.col + j]==-1) {
+                        if (isValid(currPosition.row + i, currPosition.col + j)
+                                && visited[currPosition.row + i][currPosition.col + j] == -1) {
                             q.add(new pair(currPosition.row + i, currPosition.col + j));
-                            visited[currPosition.row + i][currPosition.col + j] = visited[currPosition.row][currPosition.col] + 1;
+                            visited[currPosition.row + i][currPosition.col
+                                    + j] = visited[currPosition.row][currPosition.col] + 1;
                         }
                     }
                 }
@@ -64,8 +66,8 @@ public class knigthsTour {
     }
 
     public static void main(String[] args) {
-        knigthsTour knight= new knigthsTour();
-        System.out.println(knight.findMoves("1a","4d"));
+        knigthsTour knight = new knigthsTour();
+        System.out.println(knight.findMoves("1a", "4d"));
 
     }
 }
