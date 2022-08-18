@@ -23,49 +23,52 @@ Output:
  */
 public class SortMatrixDiagonally {
     public static void main(String[] args) {
-       int[][] mat={{3 ,6,3, 8, 2},
-               {4 ,1 ,9 ,5 ,9},
-               {5 ,7, 2, 4, 8},
-               {8, 3, 1, 7, 6}};
-       sorltDiagonally(mat,mat.length,mat[0].length);
+        int[][] mat = { { 3, 6, 3, 8, 2 },
+                { 4, 1, 9, 5, 9 },
+                { 5, 7, 2, 4, 8 },
+                { 8, 3, 1, 7, 6 } };
+        sorltDiagonally(mat, mat.length, mat[0].length);
         System.out.println(Arrays.deepToString(mat));
     }
-    public static void sorltDiagonally(int[][] mat,int n , int m){
-      // sort the upper triangle first:
+
+    public static void sorltDiagonally(int[][] mat, int n, int m) {
+        // sort the upper triangle first:
         for (int i = 1; i < m; i++) {
-            ArrayList<Integer> ls= new ArrayList<>();
-            int c=0,j=i;
-            while (c<n && j<m){
+            ArrayList<Integer> ls = new ArrayList<>();
+            int c = 0, j = i;
+            while (c < n && j < m) {
                 ls.add(mat[c++][j++]);
             }
-            c=0;j=i;
+            c = 0;
+            j = i;
             Collections.sort(ls, new Comparator<Integer>() {
                 @Override
                 public int compare(Integer o1, Integer o2) {
-                    return o2-o1;
+                    return o2 - o1;
                 }
             });
-            for (int x:ls ) {
-                mat[c++][j++]=x;
+            for (int x : ls) {
+                mat[c++][j++] = x;
             }
 
         }
         // sort the lower triangle
         for (int i = 1; i < n; i++) {
-            ArrayList<Integer> ls= new ArrayList<>();
-            int c=i,j=0;
-            while (c<n){
+            ArrayList<Integer> ls = new ArrayList<>();
+            int c = i, j = 0;
+            while (c < n) {
                 ls.add(mat[c++][j++]);
             }
-            c=i;j=0;
+            c = i;
+            j = 0;
             Collections.sort(ls, new Comparator<Integer>() {
                 @Override
                 public int compare(Integer o1, Integer o2) {
-                    return o1-o2;
+                    return o1 - o2;
                 }
             });
-            for (int x:ls ) {
-                mat[c++][j++]=x;
+            for (int x : ls) {
+                mat[c++][j++] = x;
             }
 
         }

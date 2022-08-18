@@ -1,4 +1,5 @@
 package dataStructures.strings;
+
 /*
 Given an integer n. Return the nth row of the following look-and-say pattern.
 1
@@ -18,30 +19,29 @@ To generate a member of the sequence from the previous member, read off the digi
  */
 public class patternMatch {
     static String lookandsay(int n) {
-        //your code here
-        if(n==1){
+        // your code here
+        if (n == 1) {
             return "1";
         }
-        if(n==2){
+        if (n == 2) {
             return "11";
         }
-        String str="11";
-        for (int i = 3; i <=n ; i++) {
-            String temp="";
-            str+="@";
-            StringBuilder sb= new StringBuilder();
-            int count=1;
+        String str = "11";
+        for (int i = 3; i <= n; i++) {
+            String temp = "";
+            str += "@";
+
+            int count = 1;
             for (int j = 1; j < str.length(); j++) {
-                if(str.charAt(j)!=str.charAt(j-1)){
-                    temp+=count;
-                    temp+=str.charAt(j-1);
-                    count=1;
-                }
-                else {
+                if (str.charAt(j) != str.charAt(j - 1)) {
+                    temp += count;
+                    temp += str.charAt(j - 1);
+                    count = 1;
+                } else {
                     count++;
                 }
             }
-            str=temp;
+            str = temp;
         }
         return str;
     }

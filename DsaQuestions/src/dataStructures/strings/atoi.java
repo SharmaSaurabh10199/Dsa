@@ -1,6 +1,8 @@
 package dataStructures.strings;
+
 /*
-Your task  is to implement the function atoi. The function takes a string(str) as argument and converts it to an integer and returns it.
+Your task  is to implement the function atoi. The function takes a string(str) as argument and converts 
+it to an integer and returns it.
 
 Note: You are not allowed to use inbuilt function.
 
@@ -41,7 +43,7 @@ public class atoi {
     }
 
     public static void main(String[] args) {
-        String str="-12";
+        String str = "-12";
         System.out.println(convertStrTiInt(str));
     }
 }

@@ -2,7 +2,10 @@ package dataStructures.strings;
 
 /*
 
-Given a string S, find the longest palindromic substring in S. Substring of string S: S[ i . . . . j ] where 0 ≤ i ≤ j < len(S). Palindrome string: A string which reads the same backwards. More formally, S is palindrome if reverse(S) = S. Incase of conflict, return the substring which occurs first ( with the least starting index).
+Given a string S, find the longest palindromic substring in S. Substring of string S: S[ i . . . . j ] 
+where 0 ≤ i ≤ j < len(S). Palindrome string: A string which reads the same backwards. More formally, 
+S is palindrome if reverse(S) = S. Incase of conflict, return the substring which occurs first
+( with the least starting index).
 
 
 Example 1:
@@ -24,6 +27,7 @@ public class LongestPalindrmeinstr {
     static String longestPalin(String S) {
         int start = 0, end = 1;
         for (int i = 1; i < S.length(); i++) {
+            // for the even part
             int l = i - 1;
             int h = i;
             while (l >= 0 && h < S.length() && S.charAt(l) == S.charAt(h)) {
@@ -34,6 +38,9 @@ public class LongestPalindrmeinstr {
                 l--;
                 h++;
             }
+
+            // for the odd part
+
             l = i - 1;
             h = i + 1;
             while (l >= 0 && h < S.length() && S.charAt(l) == S.charAt(h)) {
@@ -46,8 +53,7 @@ public class LongestPalindrmeinstr {
             }
 
         }
-        return S.substring(start,start+end);
-
+        return S.substring(start, start + end);
 
     }
 

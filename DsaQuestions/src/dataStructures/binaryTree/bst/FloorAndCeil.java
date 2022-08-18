@@ -28,5 +28,6 @@ public class FloorAndCeil {
                 root=root.right;
             }
         }
+        System.out.println(floor+"  "+ceil);
     }
 }

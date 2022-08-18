@@ -29,7 +29,7 @@ public class reverseLevelOrder {
             left = right = null;
         }
     }
-    public ArrayList<Integer> reverseLevelOrder(Node node)
+    public ArrayList<Integer> reverseLevelOrderTraversal(Node node)
     {
         ArrayList<Integer> res= new ArrayList<>();
         Stack<Integer> st= new Stack<>();
